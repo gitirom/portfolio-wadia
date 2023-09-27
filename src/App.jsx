@@ -11,6 +11,7 @@ import Footer from './components/footer/Footer';
 import {ToastContainer} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import ScrollUp from './components/ScrollUp/ScrollUp';
+import Work from './components/work/Work';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Skills />
         <Services />
         <Qualification />
+        <Work />
         <Testimonials />
         <Contact />
       </main>

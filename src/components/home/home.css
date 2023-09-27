@@ -30,6 +30,7 @@
 }
 
 .home__subtitle {
+    margin: auto;
     position: relative;
     font-size: var(--h3-font-size);
     padding-left: 5.4rem;
