@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
 import Wadia from "../../assets/Custom.jpg";
-import Cv from "../../assets/Cv de Wadia.pdf";
+import Cv from "../../assets/CV V.1.2.pdf";
 import Info from "./Info";
 
 

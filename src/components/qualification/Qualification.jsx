@@ -44,7 +44,7 @@ const Qualification = () => {
                                 <h3 className="qualification__title">Bachelor Degree in software engineering</h3>
                                 <span className="qualification__subtitle">ISET - Institute </span>
                                 <div className="qualification__calender">
-                                    <i class="uil uil-calendar-alt"></i> 2021 - Present
+                                    <i class="uil uil-calendar-alt"></i> 2022 - 2024
                                 </div>
                             </div>
 
@@ -54,6 +54,22 @@ const Qualification = () => {
                             </div>
                         </div>
                         
+                        <div className="qualification__dataN">
+                            <div></div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                            <div>
+                                <h3 className="qualification__title">Full Stack Web Developer internship</h3>
+                                <span className="qualification__subtitle">FLESK CONSULTING </span>
+                                <div className="qualification__calender">
+                                    <i class="uil uil-calendar-alt"></i> 2024 - Feb / May 
+                                </div>
+                            </div>
+
+                        </div>
                         <div className="qualification__data">
                             <div></div>
 

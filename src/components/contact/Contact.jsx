@@ -11,16 +11,21 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-
-        emailjs.sendForm(
-            'service_bo0dslk',
-            'template_irq4uhv',
-            form.current,
-            'Y7-d2do67SOVUA6fp'
+    
+            emailjs.sendForm(
+                'service_0mj8aa8',
+                'template_irq4uhv',
+                form.current,
+                'Y7-d2do67SOVUA6fp'
             )
-            
-            toast.success("Message Has Sended");
-    };
+            .then((result) => {
+                console.log(result.text);
+                toast.success("Message Has Sended");
+                e.target.reset()
+            }, (error) => {
+            console.log(error.text);
+            });
+        };
     return (
         <section className="contact section" id="contact" >
             <h2 className="section__title">Get in touch</h2>
@@ -87,7 +92,7 @@ const Contact = () => {
                         </div>
                     </form>
 
-                    <button className="button button--flex" onClick={sendEmail} >
+                    <button id="Button" className="button button--flex" onClick={sendEmail}>
                     Say Message <span style={{fontSize: "1.6rem", marginLeft: "15px"}} >📧</span>
                 </button>
                 </div>
