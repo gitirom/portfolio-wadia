@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-    <loc>https://gitirom.github.io/portfolio-wadia/</loc>
-    <lastmod>2023-07-12</lastmod>
-    <priority>1.0</priority>
-    </url>
-    <!-- Add more URLs for each page you want to be indexed -->
+    <url><loc>https://gitirom.github.io/portfolio-wadia/</loc></url><url><loc>https://gitirom.github.io/portfolio-wadia/#about</loc></url><url><loc>https://gitirom.github.io/portfolio-wadia/#skills</loc></url><url><loc>https://gitirom.github.io/portfolio-wadia/#services</loc></url><url><loc>https://gitirom.github.io/portfolio-wadia/#qualification</loc></url><url><loc>https://gitirom.github.io/portfolio-wadia/#work</loc></url><url><loc>https://gitirom.github.io/portfolio-wadia/#testimonials</loc></url><url><loc>https://gitirom.github.io/portfolio-wadia/#contact</loc></url>
 </urlset>
