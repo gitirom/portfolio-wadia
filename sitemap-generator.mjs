@@ -24,4 +24,4 @@ if (!fs.existsSync(publicPath)){
 }
 
 fs.writeFileSync(path.join(publicPath, 'sitemap.xml'), sitemapContent, 'utf8');
-console.log('Sitemap generated successfully Gongrat! ');
+console.log('Sitemap generated successfully');
