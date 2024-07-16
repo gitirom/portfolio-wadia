@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./header.css";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     //change Background header
@@ -50,6 +51,7 @@ const Header = () => {
                                 <i className="uil uil-message nav__icon"></i> Contact
                             </a>
                         </li>
+                        
                     </ul>
                     <i className="uil uil-times nav__close"  onClick={() => showMenu(!Toggle)} ></i> {/* for get open & close menu in small devices */}
                 </div>

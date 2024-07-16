@@ -23,7 +23,6 @@ const Works = () => {
         setItem({ name: e.target.textContent });
         setActive(index);
     };
-
     return (
         <div>
             <div className="work__filters">
@@ -36,8 +35,8 @@ const Works = () => {
 
             <div className="work__container container grid ">
                 {projects.map((item) => {
-                    return <WorksItems item={item} key={item.id}  />
-                })
+                        return <WorksItems item={item} key={item.id}  />
+                    })
                 }
             </div>
         </div>

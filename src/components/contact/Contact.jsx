@@ -21,7 +21,7 @@ const Contact = () => {
             .then((result) => {
                 console.log(result.text);
                 toast.success("Message Has Sended");
-                e.target.reset()
+                form.current.reset();
             }, (error) => {
             console.log(error.text);
             });
